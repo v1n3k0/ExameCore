@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelo", "Modelo", "{10E8A860-062C-4247-9D33-E3A2F2C5676C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{601BEBF0-0E69-463A-B214-6EB22C7AF805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistencia", "Persistencia", "{AA524E8C-4B20-4AF7-AE17-6166E709C02A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{F6854706-AA6E-410B-AB6B-17EA5C4430BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame.Modelo", "Exame.Modelo\Exame.Modelo.csproj", "{76DBD164-C43B-4B1C-A5E0-777ABCB77A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame.Negocio.Contrato", "Exame.Negocio.Contrato\Exame.Negocio.Contrato.csproj", "{4CA519B5-8540-4CDE-B236-F9444D54FA8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame.Negocio.Implentacao", "Exame.Negocio.Implentacao\Exame.Negocio.Implentacao.csproj", "{60B38427-B567-41D3-9052-A93674213B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame.Persistencia.Contrato", "Exame.Persistencia.Contrato\Exame.Persistencia.Contrato.csproj", "{CF36FDCD-C7D2-4982-BC7C-870B4FC3AB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame.Persistencia.Implentacao", "Exame.Persistencia.Implentacao\Exame.Persistencia.Implentacao.csproj", "{5D605970-073E-4074-BC62-0426B1E6265F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame.Web", "Exame.Web\Exame.Web.csproj", "{70BB2006-775A-42DC-A86C-A4FC2ABAD7CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compartilhado", "Compartilhado", "{DB044D7B-7C04-4095-9790-AAAD9852B47F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exame.Ajuda", "Exame.Ajuda\Exame.Ajuda.csproj", "{7AA0E9AF-FBBA-4497-820C-4662A914FC1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76DBD164-C43B-4B1C-A5E0-777ABCB77A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76DBD164-C43B-4B1C-A5E0-777ABCB77A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76DBD164-C43B-4B1C-A5E0-777ABCB77A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76DBD164-C43B-4B1C-A5E0-777ABCB77A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA519B5-8540-4CDE-B236-F9444D54FA8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA519B5-8540-4CDE-B236-F9444D54FA8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA519B5-8540-4CDE-B236-F9444D54FA8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA519B5-8540-4CDE-B236-F9444D54FA8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B38427-B567-41D3-9052-A93674213B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B38427-B567-41D3-9052-A93674213B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B38427-B567-41D3-9052-A93674213B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B38427-B567-41D3-9052-A93674213B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF36FDCD-C7D2-4982-BC7C-870B4FC3AB1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF36FDCD-C7D2-4982-BC7C-870B4FC3AB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF36FDCD-C7D2-4982-BC7C-870B4FC3AB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF36FDCD-C7D2-4982-BC7C-870B4FC3AB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D605970-073E-4074-BC62-0426B1E6265F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D605970-073E-4074-BC62-0426B1E6265F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D605970-073E-4074-BC62-0426B1E6265F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D605970-073E-4074-BC62-0426B1E6265F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70BB2006-775A-42DC-A86C-A4FC2ABAD7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70BB2006-775A-42DC-A86C-A4FC2ABAD7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70BB2006-775A-42DC-A86C-A4FC2ABAD7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70BB2006-775A-42DC-A86C-A4FC2ABAD7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA0E9AF-FBBA-4497-820C-4662A914FC1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA0E9AF-FBBA-4497-820C-4662A914FC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA0E9AF-FBBA-4497-820C-4662A914FC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA0E9AF-FBBA-4497-820C-4662A914FC1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76DBD164-C43B-4B1C-A5E0-777ABCB77A76} = {10E8A860-062C-4247-9D33-E3A2F2C5676C}
+		{4CA519B5-8540-4CDE-B236-F9444D54FA8A} = {601BEBF0-0E69-463A-B214-6EB22C7AF805}
+		{60B38427-B567-41D3-9052-A93674213B89} = {601BEBF0-0E69-463A-B214-6EB22C7AF805}
+		{CF36FDCD-C7D2-4982-BC7C-870B4FC3AB1F} = {AA524E8C-4B20-4AF7-AE17-6166E709C02A}
+		{5D605970-073E-4074-BC62-0426B1E6265F} = {AA524E8C-4B20-4AF7-AE17-6166E709C02A}
+		{70BB2006-775A-42DC-A86C-A4FC2ABAD7CD} = {F6854706-AA6E-410B-AB6B-17EA5C4430BF}
+		{7AA0E9AF-FBBA-4497-820C-4662A914FC1E} = {DB044D7B-7C04-4095-9790-AAAD9852B47F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49EFDCB4-70F0-4845-94A2-D23B824FBA96}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\MeuGitHub\\ExameCore\\Fontes\\Exame\\Exame.Negocio.Contrato\\Exame.Negocio.Contrato.csproj": {}
+  },
+  "projects": {
+    "C:\\MeuGitHub\\ExameCore\\Fontes\\Exame\\Exame.Negocio.Contrato\\Exame.Negocio.Contrato.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\MeuGitHub\\ExameCore\\Fontes\\Exame\\Exame.Negocio.Contrato\\Exame.Negocio.Contrato.csproj",
+        "projectName": "Exame.Negocio.Contrato",
+        "projectPath": "C:\\MeuGitHub\\ExameCore\\Fontes\\Exame\\Exame.Negocio.Contrato\\Exame.Negocio.Contrato.csproj",
+        "packagesPath": "C:\\Users\\vinicius.horiguchi\\.nuget\\packages\\",
+        "outputPath": "C:\\MeuGitHub\\ExameCore\\Fontes\\Exame\\Exame.Negocio.Contrato\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\vinicius.horiguchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.csfcpv.wcorp.carrefour.com:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
